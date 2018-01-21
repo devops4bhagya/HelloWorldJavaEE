@@ -12,8 +12,8 @@ import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.Calendar;
 import java.util.Date;
-*/
-@Controller
+
+@Controller*/
 public class BaseController {
 
 /*	private static int counter = 0;
