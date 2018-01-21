@@ -14,6 +14,3 @@
              dest: /home/devops/Downloads/apache-tomcat-9.0.1/webapps/HelloWorldJavaEE.war
              force: true
              url: "{{ BUILD_LATEST.stdout_lines[0]}}"
-          - name: copy war
-            shell: sudo docker cp /home/devops/Downloads/apache-tomcat-9.0.1/webapps/HelloWorldJavaEE.war 3bb9903ff377:/usr/local/tomcat/webapps
-  
